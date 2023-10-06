@@ -6,12 +6,10 @@
 
 	<meta charset="UTF-8">
 	<meta name="description" content="Sunraysia Tabletop Gamers Webpage">
-	<meta name="keywords" content="Sunraysia,Nathan">
+	<meta name="keywords" content="Sunraysia,Tabletop, Games">
 	<meta name="author" content="Nathan Davies">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
-
+        <link rel="stylesheet" href="css/style.css">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
@@ -20,60 +18,44 @@
 body { 
 	font-family: Rubik;
 }
-
-
-footer{
-position: fixed;
-left: 0;
-bottom: 0;
-}
-</style>
-<style>
-body {
-    background-image: url(sttglogo.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 25% 25%;
-    background-color:#E0FFFF;
-    background-position: 10% 10%;
-}
 </style>
 
-<style>
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
+</head>
 
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #04AA6D;
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-</style>
 
 
 <body>
    <div class="topnav"; align="right"> 
         <a class="active"; href="contact.html">CONTACT US</a>
+	<a href="about.html">ABOUT US</a>
 	<a href="events.html">EVENTS</a>
         <a href="index.html">HOME</a>
      </div>
 
-	<h1 align="center">Sunraysia Tabletop Gamers</h1>
+	<div class="container1">
+        <h1 align="center">Sunraysia Tabletop Gamers</h1>
 	<p align="center">
 	Where the fun begins. <br> 
 	We welcome all comers!</p>
 
     <h2 align="center">Contact Info</h2>
-<p align="center">You may contact the club using any of the following methods</p>
+<p align="center">Please contact the club using the form below</p>
+</div>
+<br>
+<br>
+<br>
+
+<form method="post"; target="_self">
+  <label for="name">Your Name:</label><br>
+  <input type="text" id="name" name="name"><br>
+  <label for="email">Your E-mail:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <textarea name="message" rows="10" cols="100">
+Please Enter A Message
+  </textarea><br>
+  <input type="submit" value="Send Email" />
+</form>
 
 </body>
-<footer align="left">copyright &copy</footer>
+<div class="base">&copy copyright Sunraysia Tabletop Gamers</div>
 </html>
