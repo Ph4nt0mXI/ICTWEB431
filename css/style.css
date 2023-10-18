@@ -4,18 +4,22 @@
   padding:0;
 }
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+
 body{
      background-color:#7fffd4;
-     color:#555555;
+     color:#DEB887;
  
-     font: normal 18px arial, helvetica, sans-serif;
+     font: normal 20px  Rubik,arial, helvetica, sans-serif;
       line-height:1.6em;
       margin:0;
 }
 
 a{
     text-decoration: none;
-    color:#000000;
+    color:#DEB887;
 }
 
 a:hover{
@@ -110,9 +114,21 @@ body {
 	font-family: Rubik;
 }
 
+div.clear {
+	clear: both;
+}
+
 div.item {
 	width: 100%;
 	margin: 2px;
-	background-color: gold;
+	background-color: #008B8B;
 	box-sizing: border-box;
+}
+
+@media screen and (min-width: 800px) {
+	div.item {
+		float: left;
+		width: 33%;
+		box-sizing: border-box;
+	}
 }
