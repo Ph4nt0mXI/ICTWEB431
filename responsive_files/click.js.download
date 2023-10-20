@@ -1,0 +1,3 @@
+function clickMe() {
+	document.getElementById('clicked').innerHTML = 'Clicked on ' + Date();
+}
